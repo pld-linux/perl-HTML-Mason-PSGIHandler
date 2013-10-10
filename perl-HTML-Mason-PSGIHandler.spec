@@ -7,14 +7,14 @@
 %define		pnam	Mason-PSGIHandler
 Summary:	HTML::Mason::PSGIHandler - PSGI handler for HTML::Mason
 Name:		perl-HTML-Mason-PSGIHandler
-Version:	0.52
-Release:	3
+Version:	0.53
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 URL:		http://search.cpan.org/dist/HTML-Mason-PSGIHandler/
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	42aa3272e16af0d6f35ac031d274dad8
+# Source0-md5:	f5982567c24f86b41c4cad43fd07c16c
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
