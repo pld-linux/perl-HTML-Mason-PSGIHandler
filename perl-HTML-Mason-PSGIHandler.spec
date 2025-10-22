@@ -7,7 +7,7 @@
 Summary:	HTML::Mason::PSGIHandler - PSGI handler for HTML::Mason
 Name:		perl-HTML-Mason-PSGIHandler
 Version:	0.53
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -19,6 +19,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-CGI-PSGI
 BuildRequires:	perl-HTML-Mason >= 1.12
+BuildRequires:	perl-Plack
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
