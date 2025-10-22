@@ -7,7 +7,7 @@
 Summary:	HTML::Mason::PSGIHandler - PSGI handler for HTML::Mason
 Name:		perl-HTML-Mason-PSGIHandler
 Version:	0.53
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -24,7 +24,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # provided indirectly by perl(HTML::Mason::CGIHandler)
-%define		_noautoreq_perl	HTML::Mason::Request::CGI
+%define		_noautoreq_perl	HTML::Mason::Request::CGI HTML::Mason::Request::PSGI
 
 %description
 HTML::Mason::PSGIHandler is a PSGI handler for HTML::Mason. It's based
